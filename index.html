@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form design</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="block">hello world</div>
+
+	<h2>Iframe</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/_Y_iYQS686o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
+	<h2>unorder list</h2>
+	<ul>
+		<li>food</li>
+		<li>milk</li>
+		<li>fish</li>
+	</ul>
+	<ul class="circle">
+		<li>food</li>
+		<li>milk</li>
+		<li>fish</li>
+	</ul>
+	<ul class="square">
+		<li>food</li>
+		<li>milk</li>
+		<li>fish</li>
+	</ul>
+
+	<h2>order list</h2>
+	<ol>
+		<li>bangladesh</li>
+		<li>pakistan</li>
+		<li>india</li>
+	</ol>
+
+	<h2>Text input fields</h2>
+	<form action="/action_page.php">
+		<label for="fname">First Name:</label><br>
+		<input type="Text" id="fname" name="fname" value="apu">	<br>
+		<label for="lname"> Last Name:</label><br>
+		<input type="Text" id="lname" name="lname" value="hossain"><br>
+		<label for="birthday">Birthday:</label>
+  		<input type="date" id="birthday" name="birthday"><br>
+  		<label for="email">Enter your email:</label>
+ 		<input type="email" id="email" name="email"><br>
+		<input type="submit" value="Submit">
+  		<input type="reset">
+	</form>
+	<p>favorite course</p>
+	<form>
+		<input type="radio" id="graphic design" name="fav_course" value="graphic">
+		<label for="GD">Graphic design</label><br>
+		<input type="radio" id="web design" name="Fav-course" value="Web">
+		<label for="WD">Web design</label><br>
+		<input type="radio" name="Degital marketing" name="Fav_course" value="degital">
+		<label for="DM">digital marketing</label>
+	</form>
+	<h2>checkboxes</h2>
+	<form>
+		<input type="checkbox" id="Ffood" name="dfood" value="sandwich">
+		<label for="Ffood">sandwich</label><br>
+		<input type="checkbox" name="Ffood" id="Ffood" value="bread">
+		<label for="Ffood">bread</label><br>
+		<input type="checkbox" name="Ffood" id="Ffood" value="fish">
+		<label for="Ffood">fish</label><br>
+		<input type="submit" value="submit">
+	</form>
+	<h2>the select element</h2>
+	<form>
+		<label for="class">Chosse a class</label>
+		<select id="class" name="class">
+			<option value="five">five</option>
+			<option value="six">six</option>
+			<option value="ten">ten</option>
+		</select>
+		<input type="submit" value="submit">
+	</form>
+	<h2> textarea</h2>
+	<textarea name="message" rows="10" cols="45">
+		I'm still learing web design
+	</textarea>
+	<h2>button</h2>
+	<button type="button">click here</button><br>
+
+	<h2>table design</h2>
+	<table border="2px solid">
+		<th>Name</th>
+		<th>post</th>
+		<th>age</th>
+		<tr>
+			<td>alamgir</td>
+			<td>fonted developer</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td>hossen</td>
+			<td>help assist</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<td>apu</td>
+			<td>Web Developer</td>
+			<td>27</td>
+		</tr>
+	</table>
+
+</body>
+</html>
